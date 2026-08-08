@@ -15,9 +15,18 @@
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+
 <header class="site-header">
-  <a class="brand" href="#top"><img src="assets/ggd-logo.jpg" alt=""><span><b>Golden Gate Design</b><small>Authentic Golden Gate Bridge Steel</small></span></a>
-  <nav><a href="#handrail">The Handrail</a><a href="#removal">1993 Removal</a><a href="#our-story">Our Story</a><a href="#authenticity">Authenticity</a></nav>
+  <a class="brand" href="#top" aria-label="Golden Gate Design home">
+    <img src="assets/ggd-logo.jpg" alt="">
+    <span><b>Golden Gate Design</b><small>Authentic Golden Gate Bridge Steel</small></span>
+  </a>
+  <nav aria-label="Primary navigation">
+    <a href="#1937">1937</a>
+    <a href="#handrail">The Handrail</a>
+    <a href="#removal">1993 Removal</a>
+    <a href="#our-story">Our Story</a>
+  </nav>
 </header>
 
 <main id="main">
@@ -28,7 +37,21 @@
     <p class="eyebrow">Installed 1937 · Removed 1993</p>
     <h1>A piece of<br>American history.</h1>
     <p>The steel in our work once lined the pedestrian walkway of the Golden Gate Bridge. This is the story of the original handrail, how it came down, and how it was preserved.</p>
-    <a class="button" href="#handrail">Discover the story</a>
+    <a class="button" href="#1937">Discover the story</a>
+  </div>
+</section>
+
+<section class="archive section" id="1937">
+  <div class="narrow center">
+    <p class="eyebrow">1937</p>
+    <h2>Building the Golden Gate Bridge.</h2>
+    <p class="lead">Before this steel became a piece of history, it was part of one of the most ambitious construction projects of its era. This archival film captures the bridge during its construction and opening period.</p>
+  </div>
+  <div class="video-wide">
+    <video controls playsinline preload="metadata" poster="assets/building-1937-poster.jpg">
+      <source src="assets/building-the-golden-gate-bridge-1937.mp4" type="video/mp4">
+      Your browser does not support embedded video.
+    </video>
   </div>
 </section>
 
@@ -54,10 +77,10 @@
     <div class="copy">
       <p class="eyebrow">Details in the steel</p>
       <h2>Rivets vs. bolts</h2>
-      <p>The original and replacement work can be read in the fasteners themselves. This short video takes a close look at the handrail on the bridge and shows the difference.</p>
+      <p>The handrail tells part of its own story through the fasteners. This short video looks closely at the railing on the bridge and shows the difference between the rounded rivets and later hex-head bolts.</p>
     </div>
     <video controls playsinline preload="metadata" poster="assets/rivets-vs-bolts-poster.jpg">
-      <source src="assets/rivets-vs-bolts.mov" type="video/quicktime">
+      <source src="assets/rivets-vs-bolts.mp4" type="video/mp4">
       Your browser does not support embedded video.
     </video>
   </div>
@@ -74,7 +97,7 @@
     <figcaption>Original pedestrian handrail being removed from the Golden Gate Bridge, 1993.</figcaption>
   </figure>
   <div class="photo-pair">
-    <figure><img src="assets/rail-removal-workers.jpg" alt="Workers on the Golden Gate Bridge during the 1993 handrail replacement"><figcaption>Crews working along the pedestrian railing.</figcaption></figure>
+    <figure><img src="assets/rail-removal-workers.jpg" alt="Workers on the Golden Gate Bridge during the handrail replacement"><figcaption>Crews working along the pedestrian railing.</figcaption></figure>
     <figure><img src="assets/removed-rail-trailer.jpg" alt="Removed Golden Gate Bridge handrail sections on a trailer"><figcaption>Removed handrail sections on the bridge.</figcaption></figure>
   </div>
 </section>
@@ -86,10 +109,6 @@
     <p class="lead">When I learned that the Golden Gate Bridge's original pedestrian handrail was being removed, I bought a 12½-foot section weighing roughly 1,000 pounds. I wasn't starting a business. I wanted a piece of the bridge for myself.</p>
     <p>I cut a 115-pound section from that rail and made it into a headboard. Friends saw it and began asking if I could make pieces for them. What started as a personal project became something much larger.</p>
     <p>In 1994, I bought the remaining handrail steel that was available, left my job, and founded Golden Gate Furniture Co. The same historic material has been the foundation of our work ever since.</p>
-    <div class="placeholder">
-      <strong>The beginning, 1993–1994</strong>
-      <span>Early photographs of the first rail, headboard and workshop will be added here when they are located.</span>
-    </div>
   </div>
 </section>
 
@@ -111,7 +130,12 @@
     <img class="mark" src="assets/ggd-logo.jpg" alt="Golden Gate Design bridge mark">
     <p class="eyebrow">Authenticity</p>
     <h2>Original Golden Gate Bridge steel.</h2>
-    <div class="facts"><span><b>1937</b>Installed</span><span><b>56 years</b>On the bridge</span><span><b>1993</b>Removed</span><span><b>1994</b>Our work began</span></div>
+    <div class="facts">
+      <span><b>1937</b>Installed</span>
+      <span><b>56 years</b>On the bridge</span>
+      <span><b>1993</b>Removed</span>
+      <span><b>1994</b>Our work began</span>
+    </div>
     <p>Golden Gate Design pieces are handcrafted from authentic steel removed during replacement of the Golden Gate Bridge pedestrian handrail. Natural variations in texture, markings and finish are part of the material's history, so no two pieces are exactly alike.</p>
   </div>
 </section>

@@ -1,15 +1,12 @@
-# Golden Gate Design story site
+# Golden Gate Design — final story site
 
-Static Cloudflare Pages site focused on the provenance and history of the original Golden Gate Bridge pedestrian handrail steel.
+This package includes both videos:
 
-## Upload to GitHub
-Replace the existing `index.html` and `styles.css` with these versions and upload the entire `assets` folder.
+- `building-the-golden-gate-bridge-1937.mp4` — archival black-and-white bridge film
+- `rivets-vs-bolts.mp4` — current handrail detail video, with the 13.38-second poster frame
 
-Cloudflare Pages is already connected to the repository's `main` branch, so committing the files should trigger a deployment automatically.
+Upload the contents of this folder to the root of the `rrbulan/goldengatedesign` GitHub repository.
 
-## Important
-The 1993–1994 origin-story section intentionally contains a temporary placeholder for early company photographs. Replace it later when those photographs are located.
+Cloudflare Pages should deploy automatically from `main`.
 
-The Rivets vs. Bolts video uses the frame at approximately 13.38 seconds as its poster image.
-
-Amazon and Etsy are intentionally not linked. The only commerce destination is goldengatefurniture.com.
+Amazon and Etsy are intentionally not linked. The only shopping link goes directly to goldengatefurniture.com.
