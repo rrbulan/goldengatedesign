@@ -1,12 +1,10 @@
-# Golden Gate Design — final story site
+# Golden Gate Design — branded compact story site
 
-This package includes both videos:
-
-- `building-the-golden-gate-bridge-1937.mp4` — archival black-and-white bridge film
-- `rivets-vs-bolts.mp4` — current handrail detail video, with the 13.38-second poster frame
-
-Upload the contents of this folder to the root of the `rrbulan/goldengatedesign` GitHub repository.
-
-Cloudflare Pages should deploy automatically from `main`.
-
-Amazon and Etsy are intentionally not linked. The only shopping link goes directly to goldengatefurniture.com.
+Changes:
+- Transparent graphic logo in header and authenticity section
+- Supplied Impact font used for the Golden Gate Design wordmark text
+- Supplied Cincin font used as the secondary/display typeface
+- 1993 removal photos in carousel
+- 1937 archival video is silent
+- Golden Gate Design™ in header and footer
+- Amazon and Etsy intentionally unlinked
