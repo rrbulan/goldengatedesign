@@ -1,10 +1,7 @@
-# Golden Gate Design — branded compact story site
+# Golden Gate Design — fixed branded version
 
-Changes:
-- Transparent graphic logo in header and authenticity section
-- Supplied Impact font used for the Golden Gate Design wordmark text
-- Supplied Cincin font used as the secondary/display typeface
-- 1993 removal photos in carousel
-- 1937 archival video is silent
-- Golden Gate Design™ in header and footer
-- Amazon and Etsy intentionally unlinked
+Fixes:
+- Impact and Cincin font files are directly in /assets and loaded with explicit @font-face rules.
+- CSS URL is cache-busted with ?v=4.
+- Carousel JavaScript is embedded directly in index.html, so it does not depend on script.js loading or caching.
+- Transparent logo, silent 1937 archival film, removal carousel, and ™ remain.

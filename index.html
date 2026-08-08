@@ -11,7 +11,7 @@
   <meta property="og:image" content="assets/handrail-hero.jpg">
   <title>The Story of the Golden Gate Bridge Steel | Golden Gate Design</title>
   <link rel="icon" href="assets/favicon.png">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
@@ -162,6 +162,26 @@
   <div><b>Golden Gate Design™</b><span>Authentic Golden Gate Bridge steel · San Francisco, California</span></div>
   <a href="https://goldengatefurniture.com">Golden Gate Furniture Co.</a>
 </footer>
-<script src="script.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const slides = Array.from(document.querySelectorAll('.carousel-slide'));
+  const dots = Array.from(document.querySelectorAll('.carousel-dots .dot'));
+  const prev = document.querySelector('.carousel-btn.prev');
+  const next = document.querySelector('.carousel-btn.next');
+  if (!slides.length) return;
+  let current = 0;
+  function showSlide(n) {
+    current = (n + slides.length) % slides.length;
+    slides.forEach((slide, i) => slide.classList.toggle('active', i === current));
+    dots.forEach((dot, i) => dot.classList.toggle('active', i === current));
+  }
+  if (prev) prev.addEventListener('click', function(){ showSlide(current - 1); });
+  if (next) next.addEventListener('click', function(){ showSlide(current + 1); });
+  dots.forEach((dot, i) => dot.addEventListener('click', function(){ showSlide(i); }));
+  showSlide(0);
+});
+</script>
+
 </body>
 </html>
